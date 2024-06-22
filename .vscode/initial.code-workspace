@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../TEST VO TIEN"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"new": "cpp",
+			"iosfwd": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}

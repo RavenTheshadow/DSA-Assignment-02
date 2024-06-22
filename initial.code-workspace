@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../TEST VO TIEN/test này chỉ cần chỉnh cout thành solution là được giống BKEL"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"new": "cpp",
+			"iosfwd": "cpp",
+			"ostream": "cpp",
+			"string": "cpp",
+			"xstring": "cpp"
+		}
+	}
+}

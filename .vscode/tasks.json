@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: cl.exe build active file",
+            "command": "cl.exe",
+            "args": [
+                "/Zi", // Generates complete debugging information
+                "/MDd", // Use /MDd or /MTd to define _DEBUG and allow _CrtDumpMemoryLeaks()
+                "/EHsc", // Specifies the model of exception handling - mode 'sc'
+                "/Fe:${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "Task generated for cl.exe build."
+        }
+    ]
+}
